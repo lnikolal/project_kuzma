@@ -6,12 +6,13 @@ var btn = document.getElementById("button");
 var p = document.getElementById("showDate");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
-
+dayjs.locale('sr');
+var now = dayjs();
 
 // When the user clicks the button, open the modal and show the date 
 btn.onclick = function() {
   modal.style.display = "block";
-  p.innerHTML = new Date(); 
+  p.innerHTML = now.format('D. MMMM YYYY.'); 
 }
 
 // When the user clicks on <span> (x), close the modal

@@ -1,0 +1,22 @@
+{
+  "name": "projects_kuzma",
+  "version": "1.0.0",
+  "description": "Learnig Dev",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lnikolal/project_kuzma.git"
+  },
+  "author": "Nikola Leposavic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lnikolal/project_kuzma/issues"
+  },
+  "homepage": "https://github.com/lnikolal/project_kuzma#readme",
+  "dependencies": {
+    "http-server": "^14.1.1"
+  }
+}
